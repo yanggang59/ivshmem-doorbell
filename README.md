@@ -40,6 +40,6 @@ insmod ivpci.ko
 VM0 shall wait till interrupt hits
 
 #### In VM1
-assume VM0 peerid is 0, to trigger VM0 ivshmem 0 interrupt, run as follow
+assume VM0 peerid is 1, to trigger VM0 ivshmem 0 interrupt, run as follow
 
 ./ioctl /dev/ivpci0 ring 1 0
